@@ -1,0 +1,19 @@
+.subheader {
+    font-size: 1em;
+    font-weight: 700;
+    color: black;
+}
+
+.focal_image {
+    float: right;
+    width: 250px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+img.linkedIn {
+    width: 50px;
+    margin-right: 5px;
+}
