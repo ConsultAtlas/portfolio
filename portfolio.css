@@ -17,3 +17,8 @@ img.linkedIn {
     width: 50px;
     margin-right: 5px;
 }
+
+body.format {
+    font-family: proxima_nova, "Helvetica Neue", Helvetica, gotham, serif;
+    
+}
