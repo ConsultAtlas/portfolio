@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Copy Cat Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="cc_portfolio.css" /> 
+        <link rel="stylesheet" type="text/css" href="portfolio.css" /> 
     </head>
     
     <body>
@@ -12,7 +12,14 @@
                     <button type="button" class='navbar-toggle'></button>
                     <a class='navbar-brand' href="cc_portfolio.html">Zachary Aten</a>
                 </div>
-            </div>
+                <div class="navbar-collapse">
+                    <nav class="nav navbar-nav navbar-right">
+                            <a href='' class="active">Home</a>
+                            <a href="">About</a>
+                            <a href="">Portfolio</a>
+                            <a href="">Contact</a>
+                    </nav>
+                </div>
         </div>
     </body>
 
@@ -23,85 +30,3 @@
 
 
 
-
-
-
-<!-- Old HTML
-<!DOCTYPE html> 
-<html> 
-    <head>
-        <link rel="stylesheet" type="text/css" href="portfolio.css">
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    </head>
-    <body class='format'>
-        <div>
-            <h1>Zachary Aten</h1><img class='focal_image' src='ZA2_500_px.jpg' alt='zachs photo'/>
-            <p class='subheader'>DigitalCrafts Resume</p>
-            <a href="https://www.linkedin.com/in/zacharyaten/" target="_blank"><img class='linkedIn' src="http://ourvoiceschicago.ala.org/wp-content/uploads/2016/09/2000px-Linkedin_icon.svg_.png" target="_blank"></a><a href="https://www.linkedin.com/in/zacharyaten/" target="_blank">LinkedIn Profile</a>
-            <hr />
-        </div>
-        <div>
-            <p>
-                <h3>DigitalCrafts Projects</h3>
-                <ul>
-                    <li><b>Python</b>
-                        <ol>
-                            <li>1 to Many - <a href='https://github.com/ConsultAtlas/digital_crafts/tree/master/practice/python/files' target="_blank"></a></li>
-                            <li>Word Histogram - <a href='https://github.com/ConsultAtlas/digital_crafts/tree/master/practice/python/files' target="_blank">GitHub</a></li>
-                            <li>Triangle - <a href='https://github.com/ConsultAtlas/digital_crafts/tree/master/practice/python/files' target="_blank">GitHub</a></li>
-                            <li>LeetSpeak - <a href='https://github.com/ConsultAtlas/digital_crafts/tree/master/practice/python/files' target="_blank">GitHub</a></li>
-                            <li>Dictionary - <a href='https://github.com/ConsultAtlas/digital_crafts/tree/master/practice/python/files' target="_blank">GitHub</a></li>
-                        </ol>
-                    <pre><code>
-
-
-width = int(raw_input('How wide?')) #get the width of the box.
-height = int(raw_input('how high?')) #get the height of the box.
-for lines in range(height): #iterate lines height times.
-    if lines == 0: #1st line of the box, begining of range(height)
-        print width * '#' #multiply # by the width
-    elif lines == height - 1:
-        print width * '#'
-    else:
-        print '#' + ' ' * (width-2) + "#"    
-                    </code></pre>
-                    
-                    </li>
-                    <li><b>HTML</b></li>
-                        <ul>
-                            <li>Resume - <a href='https://github.com/ConsultAtlas/portfolio/blob/master/portfolio.html' target="_blank">GitHub</a></li>
-                        </ul>
-                    <li><b>CSS</b></li>
-                </ul>
-            
-            </p>
-        
-        
-        </div>
-        
-        <form>
-        
-            <input type='text' />
-            <input type='password' />
-            <input type='email' />
-            <input type='number' />
-            <input type='radio' />
-            <input type='checkbox' />
-
-            <select>
-
-                <option value='one'>One</option>
-                <option value='two'>Two</option>
-                <option value='three'>Three</option>
-                <option value='four'>Four</option>
-                <option value='five'>Five</option>
-
-            </select>
-            <button type='submit'>Click this Button!</button>
-        
-        </form>
-            
-            
-    </body>
-
-</html> --!>
