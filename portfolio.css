@@ -58,6 +58,7 @@ html {
 nav {
     font-weight: 300;
     letter-spacing: 1px;
+    color: #fff;
 }
 
 .navbar-nav {
@@ -74,8 +75,8 @@ nav {
 li {
     color: white;
 }
-a:link {
-    color: white
+a {
+    color: white;
 }
 
 name-container {
