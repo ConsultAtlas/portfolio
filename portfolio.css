@@ -83,12 +83,12 @@ name-container {
     left: 375.5px;
     top: 279px;
     opacity: 1;
-    color: #fff;
 }
 
 h1, h2 {
     color: #fff;
-    text-align: center
+    text-align: center;
+    font-size: 4em;
 }
 
 
